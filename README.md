@@ -25,3 +25,51 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# PIZZERIA INN
+
+## AUTHOR
+### [Moharick](https://github.com/moharick)
+
+## Description
+This is a website application that allows user to order pizza online.
+
+## Screenshot
+<img src="https://github.com/moharick/project-1/blob/master/quote%20app%20screenshot.png" width="1000">
+
+## Setup
+* Open Terminal {Ctrl+Alt+T}
+
+* git clone ```https://github.com/moharick/Quotes-app.git```
+
+* cd Pizzeria-inn
+
+* code . or atom . depending on the text editor of your choice.
+
+
+## BDD
+* Input author name of the quote.
+* Write the quote
+* Input the name of person submitting.
+* Input date of submission
+
+* Users should be able to view their quote
+* Users can like or dislike their quotes and other quotes posted on the webpage
+* Users can also delete their quotes.
+ ## Known Bugs
+   * NO known bugs, incase of any please contact me
+
+## Technologies used
+  > `` html5 ``
+  > `` Css ``
+  > `` Markdown ``
+  > `` Js ``
+  > `` Bootstrap ``
+  > ``JQuery``
+  > ``Angular``
+## License
+  MIT License
+Copyright (c) 2019 Moharick
+
+## Collaborate
+  > Send me an [email](moharick@gmail.com) to collaborate on the project.
