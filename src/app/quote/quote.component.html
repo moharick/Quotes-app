@@ -1,0 +1,16 @@
+<div class="container mx-auto">
+  <div class="card" *ngFor="let quote of quotes, let i = index">
+    <div class="card-header text-center">
+      <h5>{{quote.name}} </h5>
+    </div>
+    <app-quote-details *ngIf="quote.showDescription" bind-quote="quote" (isComplete)="deleteQuote($event, i)"></app-quote-details>
+    <button (click)="toggleQuote(i)">Show</button>
+    <button (click)="deleteQuotes(true, i)">Delete</button>
+    <div class="card-footer text-muted text-center">
+      {{quote.completeDate | date}}  {{quote.submitter}}
+    </div>
+
+
+  </div>
+</div>
+<app-quote-form class="col-sm-3" (addQuote)="addNewQuote($event)"></app-quote-form>
