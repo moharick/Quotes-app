@@ -1,11 +1,10 @@
 <div class="card-text">
   <p>{{quote.description}}</p>
-
-  <button class=" btn-success vote" (click)="upVote()">{{uvotes}} <img src="../assets/thumbup.png" alt="thumbup"></button>
+  <button class=" btn-success vote" (click)="upVote()">{{uvotes}} <img src="../assets/thumbup.png"
+      alt="thumbup"></button>
   <br>
   <br>
-  <button class=" btn-danger vote" (click)="downVote()">{{dvotes}} <img src="../assets/thumbdown.jpg" alt="thumbdown"> </button>
-
-
+  <button class=" btn-danger vote" (click)="downVote()">{{dvotes}} <img src="../assets/thumbdown.jpg" alt="thumbdown">
+  </button>
   <p>This quote was published by {{quote.submitter}} {{quote.completeDate | dateCount}} days ago</p>
 </div>
