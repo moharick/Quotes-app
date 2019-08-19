@@ -11,6 +11,7 @@ import { VoteComponent } from './vote/vote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DateCountPipe } from './date-count.pipe';
 import { StrikethroughDirective } from './strikethrough.directive';
+import { VoteDirective } from './vote.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { StrikethroughDirective } from './strikethrough.directive';
     VoteComponent,
     QuoteDetailsComponent,
     DateCountPipe,
-    StrikethroughDirective
+    StrikethroughDirective,
+    VoteDirective
   ],
   imports: [
     BrowserModule,
