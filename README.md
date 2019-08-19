@@ -26,13 +26,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-# PIZZERIA INN
+# QUOTES APP
 
 ## AUTHOR
 ### [Moharick](https://github.com/moharick)
 
 ## Description
-This is a website application that allows user to order pizza online.
+This is a website application that allows user to view quotes and add their own. Users can also upvote and downvote the quotes. User can also delete quotes posted.
 
 ## Screenshot
 <img src="https://github.com/moharick/project-1/blob/master/quote%20app%20screenshot.png" width="1000">
