@@ -4,6 +4,7 @@
       <h5>{{quote.name}} </h5>
     </div>
     <app-quote-details *ngIf="quote.showDescription" bind-quote="quote" (isComplete)="deleteQuote($event, i)"></app-quote-details>
+    <p appStrikethrough>{{quote.name}}</p>
     <button (click)="toggleQuote(i)">Show</button>
     <button (click)="deleteQuotes(true, i)">Delete</button>
     <div class="card-footer text-muted text-center">
