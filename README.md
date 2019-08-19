@@ -42,7 +42,7 @@ This is a website application that allows user to order pizza online.
 
 * git clone ```https://github.com/moharick/Quotes-app.git```
 
-* cd Pizzeria-inn
+* cd Quotes-app
 
 * code . or atom . depending on the text editor of your choice.
 
