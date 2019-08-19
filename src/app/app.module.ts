@@ -10,6 +10,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { VoteComponent } from './vote/vote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DateCountPipe } from './date-count.pipe';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DateCountPipe } from './date-count.pipe';
     QuoteFormComponent,
     VoteComponent,
     QuoteDetailsComponent,
-    DateCountPipe
+    DateCountPipe,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
