@@ -1,0 +1,21 @@
+h1
+{
+  columns: #fff;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.card{
+  margin: 20px;
+  width: 250px;
+  display: flex;
+}
+.card-header{
+  background-color: aquamarine;
+
+}
+p{
+  margin-left: 5px;
+}
